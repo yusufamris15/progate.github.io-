@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  background-color: #e67e22;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float:left;
+}
+
+.header-left h1 {
+  padding: 10px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.header-right {
+  float:right;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  color: white;
+  padding: 0 25px;
+  line-height: 65px;
+  display: block;
+  transition: all 0.5s;
+  float: left;
+}
+
+.top-wrapper {
+  background-image: url('background2.jpg');
+  background-size: cover;
+  padding: 300px 20px;
+  text-align: center;
+  color: #7f8c8d;
+}
+
+.a {
+  position: relative;
+  top: 1000px;
+  bottom: 10px;
+  text-align: left;
+}
+
+.container {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #00b894;
+}
+
+.facebook {
+  background-color: #0984e3;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.product-wrapper {
+  background-color: #ffeaa7;
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.product {
+  float: left;
+  width: 25%;
+}
+
+.product-icon img {
+  width: 170px;
+  height: 140px;
+  margin: auto;
+}
+
+.product p {
+  text-align: center;
+}
+
+.message-wrapper {
+  color: #b3aeb5;
+}
+
+input {
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid #fdcb6e;
+  border-radius: 5px;
+}
+
+.contact-submit {
+  background-color: #fdcb6e;
+  color: #7f8c8d;
+  width: 200px;
+  cursor: pointer;
+  box-shadow: 0 5px #e67e22;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow:none;
+}
+
+footer p {
+  color: #fdcb6e;
+  font-size: 12px;
+  text-align: right;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #e67e22;
+}
