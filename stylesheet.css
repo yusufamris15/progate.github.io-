@@ -42,14 +42,14 @@ header {
 
 .header-right a {
   color: black;
-  padding: 0 25px;
+  padding: 0 20px;
   line-height: 65px;
   display: block;
   float: left;
 }
 
 .menu-icon {
-  color: white;
+  color: black;
   float: right;
   display: none;
 }
