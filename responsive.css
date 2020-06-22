@@ -29,17 +29,13 @@
     padding-top: 130px;
   }
   .header-right {
-    display: none;
+    display:none;
   }
   .menu-icon {
     display: block;
   }
   .top-wrapper h1 {
-    font-size: 22px;
-    line-height: 36px;
-  }
-  .top-wrapper p {
-    font-size: 12px;
-    line-height: 20px;
+  font-size: 22px;
+  line-height: 36px;
   }
 }
