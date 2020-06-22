@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+  .product {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 670px) {
+  .product {
+    width: 100%;
+  }
+  .footer {
+    text-align: center;
+  }
+}
