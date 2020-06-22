@@ -90,6 +90,10 @@ text-align: center;
   opacity: 1;
 }
 
+.fa {
+  margin-right: 5px;
+}
+
 .signup {
   background-color: #00b894;
 }
