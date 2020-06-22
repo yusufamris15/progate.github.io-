@@ -48,6 +48,12 @@ header {
   float: left;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  display: none;
+}
+
 .top-wrapper {
   background-image: url('background2.jpg');
   background-size: cover;
