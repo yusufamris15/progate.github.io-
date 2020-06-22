@@ -49,8 +49,8 @@ header {
 }
 
 .menu-icon {
-  color: black;
   float: right;
+  color: black;
   display: none;
 }
 
