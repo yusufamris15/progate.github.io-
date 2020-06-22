@@ -28,6 +28,12 @@
     text-align: left;
     padding-top: 130px;
   }
+  .header-right {
+  display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
   .top-wrapper h1 {
   font-size: 22px;
   line-height: 36px;
