@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -15,38 +14,37 @@ a {
 header {
   width: 100%;
   height: 65px;
-  background-color: #e67e22;
-  opacity: 0.9;
+  background-color: rgba(255, 255, 255);
+  opacity: 0.8;
   position: fixed;
   top: 0;
   z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
 }
 
 .header-left {
   float:left;
 }
 
-.header-left h1 {
-  padding: 10px;
-  margin: 0 auto;
-  letter-spacing: 2px;
-  color: white;
-}
-
 .header-right {
   float:right;
+  transition: all 0.6s;
+  background-color: rgba(255, 255, 255)
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(230, 126, 34, 0.5);
 }
 
 .header-right a {
-  color: white;
+  color: black;
   padding: 0 25px;
   line-height: 65px;
   display: block;
-  transition: all 0.5s;
   float: left;
 }
 
@@ -72,16 +70,11 @@ margin-right: auto;
 text-align: center;
 }
 
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
 .btn {
   padding: 12px 24px;
   color: white;
   display: inline-block;
-  opacity: 0.9;
+  opacity: 1;
   border-radius: 4px;
   text-align: center;
 }
@@ -90,16 +83,20 @@ text-align: center;
   opacity: 1;
 }
 
-.fa {
-  margin-right: 10px;
-}
-
 .signup {
   background-color: #00b894;
 }
 
 .facebook {
   background-color: #0984e3;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.fa {
+  margin-right: 5px;
 }
 
 .heading {
